@@ -4,7 +4,7 @@ const mysql = require('mysql');
 // Configurações do banco de dados
 const configuracaoBancoDados = {
   host: 'localhost',
-  user: 'admin',
+  user: 'root',
   password: '',
   database: 'loja_dsapi',
 };
@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 // Criação da conexão com o banco de dados
-const conexao = mysql.createconexao(configuracaoBancoDados);
+const conexao = mysql.createConnection(configuracaoBancoDados);
 
 // Conexão ao banco de dados
 conexao.connect((err) => {
