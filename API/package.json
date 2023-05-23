@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "trabalho de ti",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Alexandre Vaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
